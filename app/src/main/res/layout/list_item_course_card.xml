@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <TextView
+            android:text="Coursename"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:id="@+id/tvCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:id="@+id/tvTeacherName"
+            android:text="Teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvLectures"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:text="Lectures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
